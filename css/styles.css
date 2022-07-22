@@ -1,6 +1,9 @@
 .navbar {
   background-color: black;
 }
+.navText{
+  color: black;
+}
 
 .slideshow{
   height:200px;
@@ -23,5 +26,5 @@
 
 .card{
   text-align: center;
-  
+
 }
