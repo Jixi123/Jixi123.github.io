@@ -1,0 +1,27 @@
+.navbar {
+  background-color: black;
+}
+
+.slideshow{
+  height:200px;
+}
+
+
+.overview{
+  height:500px;
+}
+
+.column{
+  text-align:center;
+}
+
+.cardImage{
+  height:auto;
+  width:auto;
+  text-align: center;
+}
+
+.card{
+  text-align: center;
+  
+}
