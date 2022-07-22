@@ -8,7 +8,10 @@
 .slideshow{
   height:200px;
 }
-
+.background{
+  background-image: url(../images/download.jpeg);
+  background-size: cover;
+}
 
 .overview{
   height:500px;
