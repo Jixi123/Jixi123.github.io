@@ -9,8 +9,13 @@
   height:200px;
 }
 .background{
-  background-image: url("../images/download.jpeg");
+  background-image: url("../images/profile.jpg");
   background-size: cover;
+  background-repeat:no-repeat;
+  color: white;
+  padding-top: 400px;
+  padding-bottom:400px;
+  margin-right: 0;
 }
 
 .overview{
