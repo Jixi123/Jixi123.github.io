@@ -1,40 +1,42 @@
 .navbar {
   background-color: black;
 }
-.navText{
+
+.navText {
   color: black;
 }
 
-.slideshow{
-  height:200px;
+.slideshow {
+  height: 200px;
 }
-.background{
+
+.background {
   background-image: url("../images/profile.jpg");
   background-size: cover;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   color: white;
   padding-top: 400px;
-  padding-bottom:400px;
+  padding-bottom: 400px;
   margin-right: 0;
   background-attachment: fixed;
-
+  text-align: center;
+  font-size: 500%;
 }
 
-.overview{
-  height:500px;
+.overview {
+  height: 500px;
 }
 
-.column{
-  text-align:center;
-}
-
-.cardImage{
-  height:auto;
-  width:auto;
+.column {
   text-align: center;
 }
 
-.card{
+.cardImage {
+  height: auto;
+  width: auto;
   text-align: center;
+}
 
+.card {
+  text-align: center;
 }
