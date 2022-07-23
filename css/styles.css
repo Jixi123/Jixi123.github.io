@@ -1,7 +1,13 @@
 .navbar {
   background-color: black;
 }
+.header{
+  text-align: center;
+  font-weight: bold;
+  font-size: 300%;
+  margin-top:100px;
 
+}
 .navText {
   color: black;
 }
@@ -11,18 +17,23 @@
 }
 
 .background {
-  background-image: url("../images/profile.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) ,url("../images/profile.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
-  padding-top: 400px;
-  padding-bottom: 400px;
+  padding-top: 500px;
+  padding-bottom: 500px;
   margin-right: 0;
   background-attachment: fixed;
   text-align: center;
   font-size: 500%;
-}
+  padding-top:20%;
 
+}
+.
+.section{
+
+}
 .overview {
   height: 500px;
 }
@@ -32,11 +43,72 @@
 }
 
 .cardImage {
-  height: auto;
+
   width: auto;
   text-align: center;
 }
 
 .card {
   text-align: center;
+
+}
+.education{
+  background: white;
+  padding:15px 7%;
+  padding-bottom: 100px;
+}
+ .heading{
+  text-align:center;
+  padding-bottom: 15px;
+  color: black;
+  font-size: 50px;
+}
+ .box-container{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 15px;
+
+}
+.box{
+  border-radius: 5px;
+  text-align:center;
+  padding: 30px 20px;
+  background: white;
+  box-shadow:0 5px 10px rgba(0,0,0,0.2);
+}
+img{
+  height: 80px;
+}
+h3{
+  color: #444;
+  font-size: 22px;
+  padding: 10px 0;
+}
+h4{
+  color: #444;
+  font-size: 18px;
+  padding: 3px 0;
+}
+p{
+  color: #777;
+  font-size: 15px;
+  line-height: 1.8;
+}
+.box:hover{
+  box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+  transform: scale(1.03);
+}
+@media(max-width:768px)
+{
+  .container{
+    padding: 20px;
+  }
+}
+.subheading{
+  font-size:25%;
+  color: white;
+}
+.name{
+  font-size: 100%;
+  color: white;
 }

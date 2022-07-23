@@ -19,17 +19,17 @@
 
 <body>
   <div>
-    <nav class="navbar navbar-dark px-3 navbar-exand-lg">
+    <nav class="navbar fixed-top navbar-dark px-3 navbar-exand-lg">
       <a class="navbar-brand" href="#">Jixiang Li</a>
       <ul class="nav nav-pills">
         <li class="nav-item">
-          <a class="nav-link navText" href="#scrollspyHeading1">Overview</a>
+          <a class="navbar-brand nav-link" href="#">Overview</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link navText" href="#scrollspyHeading2">Work Experiences</a>
+          <a class="navbar-brand nav-link" href="#">Work Experiences</a>
         </li>
         <li>
-          <a class="nav-link navText" href="#scrollspyHeading2">Projects</a>
+          <a class="nav-link navbar-brand" href="#scrollspyHeading2">Projects</a>
         </li>
       </ul>
     </nav>
@@ -37,39 +37,43 @@
 
   </div>
   <div class="background">
-    <p>
+    <p class = "name">
       Jixiang Li
+    </p>
+    <p class="subheading">
+      Computer Science Student at Carnegie Mellon
     </p>
   </div>
 
 
-  <div class="overview">
-    <div class="row">
+  <div class="education">
+    <h1 class = "heading">Education</h1>
 
-
-
-      <div class="col-lg-3">
-        <div class="card">
-          <img class="cardImage card-img-top" src="https://static.hudl.com/users/prod/456435_fce9e5e3e39c43e098c7394465e1b107.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Ames High School</h5>
-            <p class="card-text">2018-2022</p>
-            <p class="card-text"><small class="text-muted">click to learn more</small></p>
-          </div>
-        </div>
+    <div class="box-container">
+      <div class="box">
+        <img src="images/ames.jpeg" alt="">
+        <h3>Ames High School</h3>
+        <h4>2018-2022</h4>
+        <p>
+          4.0/4.0 gpa, participated in numerous activities including Varsity Tennis, First Robotics Competition, Quiz Bowl, and Science Olympiad
+        </p>
       </div>
-      <div class="col-lg-3">
-        <div class="card">
-          <img class="cardImage card-img-top" src="https://www.cmu.edu/brand/brand-guidelines/images/wordmarksquare-red-600x600.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Carnegie Mellon University</h5>
-            <p id="1" class="card-text">2022-2026</p>
-            <p class="card-text"><small class="text-muted">click to learn more</small></p>
-          </div>
-        </div>
+      <div class="box">
+        <img src="images/ISU.png" alt="">
+        <h3>Iowa State University</h3>
+         <h4>2020-2022</h4>
+        <p>
+          As a PSEO student, a program that allows advanced high schoolers to take college level courses, I took multiple advanced math and computer science classes including: calc 3, linear algebra, discrete math, and data structures
+        </p>
       </div>
-
-
+      <div class="box">
+        <img src="images/cmu.png" alt="">
+        <h3>Carnegie Mellon University</h3>
+        <h4>2022-2026</h4>
+        <p>
+          Current freshmen in the school of computer science with the intent to major in computer science with an additional major in Artificial Intelligence
+        </p>
+      </div>
     </div>
 
   </div>
