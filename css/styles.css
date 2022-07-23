@@ -9,7 +9,7 @@
   height:200px;
 }
 .background{
-  background-image: url(../images/download.jpeg);
+  background-image: url("../images/download.jpeg");
   background-size: cover;
 }
 
