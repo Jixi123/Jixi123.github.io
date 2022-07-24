@@ -126,3 +126,6 @@ h5 {
   height: 240px;
   padding-bottom: 15px;
 }
+body{
+  scroll-behavior: smooth;
+}
