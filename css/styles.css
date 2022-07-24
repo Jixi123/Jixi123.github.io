@@ -49,7 +49,17 @@
 }
 
 .education {
-  background: white;
+  background: #C0DFD9;
+  padding: 15px 7%;
+  padding-bottom: 100px;
+}
+.Jobs{
+  background: #BCCBC9;
+  padding: 15px 7%;
+  padding-bottom: 100px;
+}
+.Projects{
+  background: #AAB8B6;
   padding: 15px 7%;
   padding-bottom: 100px;
 }
@@ -128,4 +138,95 @@ h5 {
 }
 body{
   scroll-behavior: smooth;
+}
+body{margin-top:20px;}
+/* About Me
+---------------------*/
+@media (max-width: 991px) {
+  .about-text {
+    margin-top: 40px;
+  }
+}
+.about-text h3 {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+@media (max-width: 767px) {
+  .about-text h3 {
+    font-size: 35px;
+  }
+}
+.about-text h4 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+@media (max-width: 767px) {
+  .about-text h4 {
+    font-size: 18px;
+  }
+}
+
+.about-text .btn-bar {
+  padding-top: 8px;
+}
+.about-text .btn-bar a {
+  min-width: 150px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.about-img {
+
+  padding: 10px;
+}
+@media (max-width: 991px) {
+  .about-img {
+    margin-top: 30px;
+
+  }
+}
+
+
+
+
+.section {
+    padding: 100px 0;
+    position: relative;
+}
+.gray-bg {
+    background-color: #E9ECE6;
+}
+.px-btn.theme {
+    background: #fe4f6c;
+    color: #ffffff;
+    border: 2px solid #fe4f6c;
+}
+.px-btn {
+    padding: 0 20px;
+    line-height: 42px;
+    border: 2px solid transparent;
+    position: relative;
+    display: inline-block;
+    background: none;
+    border: none;
+
+
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+.aboutPicture{
+  height:360px;
+  border-radius: 50%;
+}
+#school{
+
+}
+#work{
+
+}
+
+#Project{
+
 }
