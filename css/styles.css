@@ -17,6 +17,21 @@
   height: 200px;
 }
 
+.social {
+  padding-left: 35px;
+  padding-right: 35px;
+  padding: 0 20px;
+  line-height: 42px;
+  border: 2px solid transparent;
+  position: relative;
+  display: inline-block;
+  background: none;
+  border: none;
+
+  font-size: 32px;
+
+}
+
 .background {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../images/profile.jpg");
   background-size: cover;
@@ -30,20 +45,22 @@
   font-size: 500%;
   padding-top: 20%;
 }
-.backgroundPicture{
+
+.backgroundPicture {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../images/Neutrino.jpeg");
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
-  margin-right:0;
+  margin-right: 0;
   background-attachment: fixed;
   height: 500px;
-  padding: 200px ;
+  padding: 200px;
 }
-.backgroundPicture2{
+
+.backgroundPicture2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../images/tennis.JPG");
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
-  margin-right:0;
+  margin-right: 0;
   background-attachment: fixed;
   height: 300px;
   padding: 200px;
@@ -71,12 +88,14 @@
   padding: 15px 7%;
   padding-bottom: 100px;
 }
-.Jobs{
+
+.Jobs {
   background: #BCCBC9;
   padding: 15px 7%;
   padding-bottom: 100px;
 }
-.Projects{
+
+.Projects {
   background: #AAB8B6;
   padding: 15px 7%;
   padding-bottom: 100px;
@@ -154,10 +173,15 @@ h5 {
   height: 240px;
   padding-bottom: 15px;
 }
-body{
+
+body {
   scroll-behavior: smooth;
 }
-body{margin-top:20px;}
+
+body {
+  margin-top: 20px;
+}
+
 /* About Me
 ---------------------*/
 @media (max-width: 991px) {
@@ -165,20 +189,24 @@ body{margin-top:20px;}
     margin-top: 40px;
   }
 }
+
 .about-text h3 {
   font-size: 45px;
   font-weight: 700;
   margin: 0 0 10px;
 }
+
 @media (max-width: 767px) {
   .about-text h3 {
     font-size: 35px;
   }
 }
+
 .about-text h4 {
   font-weight: 600;
   margin-bottom: 15px;
 }
+
 @media (max-width: 767px) {
   .about-text h4 {
     font-size: 18px;
@@ -188,6 +216,7 @@ body{margin-top:20px;}
 .about-text .btn-bar {
   padding-top: 8px;
 }
+
 .about-text .btn-bar a {
   min-width: 150px;
   text-align: center;
@@ -195,56 +224,49 @@ body{margin-top:20px;}
 }
 
 .about-img {
-
   padding: 10px;
 }
+
 @media (max-width: 991px) {
   .about-img {
     margin-top: 30px;
-
   }
 }
 
-
-
-
 .section {
-    padding: 100px 0;
-    position: relative;
+  padding: 100px 0;
+  position: relative;
 }
+
 .gray-bg {
-    background-color: #E9ECE6;
+  background-color: #E9ECE6;
 }
+
 .px-btn.theme {
-    background: #5783db;
-    color: #ffffff;
-    border: 2px solid #5783db;
+  background: #5783db;
+  color: #ffffff;
+  border: 2px solid #5783db;
 }
+
 .px-btn {
-    padding: 0 20px;
-    line-height: 42px;
-    border: 2px solid transparent;
-    position: relative;
-    display: inline-block;
-    background: none;
-    border: none;
-
-
-    border-radius: 5px;
-    font-size: 16px;
-
+  padding: 0 20px;
+  line-height: 42px;
+  border: 2px solid transparent;
+  position: relative;
+  display: inline-block;
+  background: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
 }
-.aboutPicture{
-  height:360px;
+
+.aboutPicture {
+  height: 360px;
   border-radius: 50%;
 }
-#school{
 
-}
-#work{
+#school {}
 
-}
+#work {}
 
-#Project{
-
-}
+#Project {}
