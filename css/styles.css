@@ -30,6 +30,24 @@
   font-size: 500%;
   padding-top: 20%;
 }
+.backgroundPicture{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../images/Neutrino.jpeg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  margin-right:0;
+  background-attachment: fixed;
+  height: 500px;
+  padding: 200px ;
+}
+.backgroundPicture2{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527), rgba(0, 0, 0, 0.5)), url("../images/tennis.JPG");
+  background-size:cover;
+  background-repeat: no-repeat;
+  margin-right:0;
+  background-attachment: fixed;
+  height: 300px;
+  padding: 200px;
+}
 
 .overview {
   height: 500px;
